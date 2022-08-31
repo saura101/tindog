@@ -1,0 +1,200 @@
+body
+{
+    font-family:"Montserrat";
+    text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family:"Montserrat";
+}
+h2
+{
+    font-weight: 900;
+    font-size:3rem;
+    line-height: 1.5;
+}
+.container-fluid
+{
+    padding:7% 15%;
+}
+
+.colored-sec
+{
+    background-color:#ff4c68;
+    color:#fff;   
+}
+
+.white-sec
+{
+    background-color:#fff;
+}
+
+/* navbar */
+
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.navbar-brand
+{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+.nav-link
+{
+    font-size:1.2rem;
+    font-family: "Montserrat";
+}
+
+/* download button */
+
+.download
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* title */
+
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+.title-h
+{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:900;
+    font-size: 4rem;
+    line-height:1.5;
+}
+
+.title-image
+{
+    margin-left:7rem;
+    width: 20%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:20%;
+}
+
+#title
+{
+    
+    text-align:left;
+}
+
+ /* features */
+
+ #features
+ {
+    position:relative;
+    z-index:1;
+ }
+ .feature-box
+ {
+    padding:3%;
+ }
+ .feature
+ {
+    font-weight: 900;
+    font-size:1.5rem;
+ }
+ .feature-para
+ {
+    color:#8f8f8f;
+ }
+ .f-image
+ {
+    color:#ef8172;
+    font-size:5rem;
+    margin-bottom:1rem;
+ }
+ .f-image:hover
+ {
+    color:#ff4c68;
+ }
+
+ /* testimonials */
+
+ #testimonials
+ {
+    background-color:#ef8172;
+ }
+
+ .testi-image
+ {
+    width:15%;
+    border-radius:100%;
+    margin:20px;
+ }
+
+ /* press */
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom:3%;
+}
+
+.press-logo
+{
+    width:13%;
+    margin:20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing
+{
+    padding: 100px;
+}
+
+.card
+{
+    height:440px;
+    padding: 3% 2%;
+}
+
+/* cta */
+
+
+.cta-heading
+{
+    font-family:"Montserrat";
+    font-weight:900;
+    font-size:3.5rem;
+    line-height:1.5;
+}
+
+/* footer */
+
+#footer .container-fluid
+{
+    padding:5% 15%;
+}
+
+.social
+{
+    margin:2% 1%;
+}
+
+@media (max-width: 1028px)
+{
+    .title-image
+    {
+        position:static;
+        transform:rotate(0);
+        width:50%;
+    }
+    #title
+    {
+        text-align: center;
+    }
+
+}
